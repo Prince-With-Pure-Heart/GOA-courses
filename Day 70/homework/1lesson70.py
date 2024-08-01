@@ -1,0 +1,1 @@
+print("Homework will be presentation of our project with my group on next lesson")

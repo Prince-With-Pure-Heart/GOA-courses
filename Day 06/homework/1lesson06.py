@@ -1,0 +1,7 @@
+age= int(input("Enter yor age: "))
+number= int(input("Enter your number:"))
+id = int(input("Enter your id:"))
+print(age + number + id)
+print(age * number * id)
+print(age - number - id)
+print(age / number / id)

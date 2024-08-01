@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: fixed;
+    width: 60%;
+}
+
+#logo {
+    width: 15%;
+}
+
+#navlinks {
+    display: flex;
+    gap: 20px;
+}
+
+
+.navlink {
+    color: rgba(0, 0, 0, 0.805);
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+#navbutton {
+    color: white;
+    background-color: rgb(110, 20, 162);
+    font-size: 15px;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+}
+
+#content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.contentbox {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(139, 50, 191);
+    
+}
+.nav a{
+    text-decoration: none;
+}

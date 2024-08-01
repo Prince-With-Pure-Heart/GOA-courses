@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(82, 145, 82);
+    width: 40px;
+    color: rgb(82, 145, 82);
+    height: 40px;
+    transition: width 3s, ease-in-out 5s;
+
+}
+div:hover{
+    width:     10000px;
+}
+.me{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    height: fit-content;
+    
+}
+.me:hover{
+    transform: scale(1.5) translate(100px)
+}

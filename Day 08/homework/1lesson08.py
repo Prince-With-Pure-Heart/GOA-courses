@@ -1,0 +1,12 @@
+age=int(input())
+coins = 36
+print(age > coins and age==37)
+print(age > coins or age==37)
+print(age < coins and age==12)
+print(age==coins or age > coins)
+print(age < coins or age==coins)
+print(age + coins > coins and  age + coins ==37)
+print(age*coins==12 and age > coins)
+print(coins - coins < age-coins or coins - coins==age )
+print(age > coins//coins  and age//coins == age)
+print(coins + age== coins or coins > age)

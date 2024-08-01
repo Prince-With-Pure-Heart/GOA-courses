@@ -1,0 +1,1 @@
+print("Day 42:Learnt where our network pyshical cables wireslead to which i had been very curious about andwondered. Now I know that they all head from localnetwork centers to bigger regional ones and finallyto global one. Also learnt how client is connectedo neworkservers and what is DNS.")

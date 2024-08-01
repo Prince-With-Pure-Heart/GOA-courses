@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+
+    background-image: url("images/0-Where-to-Stay-in-Tbilisi-Georgia.jpg");
+    background-size: cover;
+    background-position: bottom;
+    margin-left: 930px;
+    margin-top: 430px;
+    overflow: hidden;
+    box-shadow: 5px 5px 25px rgb(137, 137, 137);
+}
+
+.child{
+    height: 100%;
+    color: white;
+    padding-top: 240px;
+    text-align: center;
+    background-color: rgba(182, 129, 129, 0);
+    text-shadow: 2px 3px 4px rgba(0,0,0,0)
+}

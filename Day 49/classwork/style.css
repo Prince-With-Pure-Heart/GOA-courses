@@ -1,0 +1,43 @@
+.school {
+    border: 1px solid grey;
+    width: fit-content;
+    padding: 5px;
+    margin-left: 200px;
+    background-color: rgb(255, 250, 250);
+
+}
+
+section{
+    border-top: 13px solid rgb(167, 146, 146);
+    border-radius: 13px;
+}
+
+section   a{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 13px;
+    margin-left: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+section img{
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.m{
+    color: white;
+    background-color: rgb(32, 21, 21);
+    margin-left: 10px; 
+    padding: 12px 12px 12px 12px
+}
+.fb{
+    margin-left: 1px;
+}
+.info input{
+    margin-left: 200px;
+}
+
+ 
