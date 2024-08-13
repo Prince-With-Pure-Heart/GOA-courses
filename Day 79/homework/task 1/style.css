@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+ 
+ 
+h1{
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 25px;
+    
+    
+}
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+}
