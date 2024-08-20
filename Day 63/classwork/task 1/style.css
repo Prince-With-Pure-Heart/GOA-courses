@@ -5,28 +5,22 @@
     font-family: Roboto;
 }
 
-body {
-    background-color: rgb(207, 216, 220);
+ .parent .child-1{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 200px;
+    gap: 5px;
 
-.parent {
-    width: 1200px;
-    height: 1200px;
-
-    border: 5px solid red;
-}
-
-.child {
-    width: 400px;
-    height: 400px;
-
-    position: relative;
-    top: 400px;
-    left: 400px;
-
-    background-color: green;
-    border: 2px solid blue;
-}
+ }
+ .parent .child-1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+ .acc{
+    color: rgb(255, 255, 255);
+    background-color: rgb(162, 84, 162);
+    padding: 5px;
+    border-radius: 10px;
+ }
