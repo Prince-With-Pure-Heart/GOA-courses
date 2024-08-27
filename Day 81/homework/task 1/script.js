@@ -4,17 +4,17 @@ let resetBtn = document.getElementById("reset");
 let btn1 = document.getElementById("plusButton");
 let btn2 = document.getElementById("minusbutton");
 function increaseText(){
-    p1.textContent = counter ++;
+    p1.innerHTML = counter ++;
 
 
 };
 function decreaseText(){
     if(counter >= 0){
-        p1.textContent = counter --;
+        p1.innerHTML = counter --;
     }
 }
 function restart(){
-    p1.textContent = 0;
+    p1.innerHTML = 0;
 }
 
 resetBtn.onclick = restart;
