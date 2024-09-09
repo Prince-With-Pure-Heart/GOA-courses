@@ -1,0 +1,86 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #082c6c;
+    color: #fff;
+    font-family: sans-serif;
+
+
+ }
+section{
+    display: flex;
+    flex-direction: column;
+}
+ .title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+ }
+ .scors{
+    display:flex;
+    justify-content: center;
+    gap: 5.5rem;
+ }
+
+ .playerCounter, .computerCounter{
+    text-align: center;
+    font-size: 1.5rem;
+ }
+ .move, .movesLeft{
+    text-align: center;
+    position: relative;
+    top: 200px;
+
+ }
+ .move{
+    font-size: 2.5rem;
+
+ }
+ .btns{
+    display:flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    gap: 10rem;
+ }
+ .btns button{
+    background-color: rgb(10, 124, 10);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    
+ }
+ .btns button:hover{
+     background-color: lightgreen;
+     color: black;
+ }
+ .reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.result{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 612px)
+{  
+    .title{
+        text-align: center;
+    }
+    .score{
+        position: absolute;
+        top: 200px;
+        width: 100vw;
+    }
+    .options{
+        width: 100vw;
+    }
+}
