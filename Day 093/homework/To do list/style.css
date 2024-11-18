@@ -22,7 +22,7 @@ body{
     border-radius: 5px;
 }
 .head button{
-     background: rgba(82, 82, 245, 0.452);
+     background: goldenrod;
      color: white;
      
      height: fit-content;
@@ -39,6 +39,7 @@ body{
 .head button:hover{
     box-shadow: 2px 5px 71px rgb(255, 251, 251);
     background: #000;
+    border: 5px solid goldenrod;
     
 }
 .box{
@@ -48,21 +49,24 @@ body{
     position: relative;
     left: 700px;
     top: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
+    padding: 15px;
     
 
 
 
 
 }
+ 
 .box p {
     margin: 5px;
     position: relative;
 }
 #remove{
-    background: goldenrod;
+    background: rgba(173, 18, 18, 0.747);
     transition: 1s;
+
 }
 #remove:hover{
     background: #000;
